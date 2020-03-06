@@ -3,7 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAPI", "SimpleAPI\SimpleAPI.csproj", "{314D98A1-E714-4E68-B88B-C9DB3A9AF729}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAPI", "SimpleAPI\SimpleAPI.csproj", "{314D98A1-E714-4E68-B88B-C9DB3A9AF729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAPIClient", "SimpleAPIClient\SimpleAPIClient.csproj", "{1BB8C875-2620-49CC-8EA1-5D563400180B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F1C2E13C-2997-401B-B511-D08F883C4A4A}"
+	ProjectSection(SolutionItems) = preProject
+		Protos\greet.proto = Protos\greet.proto
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +22,10 @@ Global
 		{314D98A1-E714-4E68-B88B-C9DB3A9AF729}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{314D98A1-E714-4E68-B88B-C9DB3A9AF729}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{314D98A1-E714-4E68-B88B-C9DB3A9AF729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BB8C875-2620-49CC-8EA1-5D563400180B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BB8C875-2620-49CC-8EA1-5D563400180B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BB8C875-2620-49CC-8EA1-5D563400180B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BB8C875-2620-49CC-8EA1-5D563400180B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

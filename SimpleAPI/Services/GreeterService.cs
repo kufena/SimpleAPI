@@ -22,5 +22,14 @@ namespace SimpleAPI
                 Message = "Hello " + request.Name
             });
         }
+
+        public override Task<BishBashBoshReply> SayBishBashBosh(HelloRequest request, ServerCallContext context)
+        {
+            return Task.FromResult(new BishBashBoshReply
+            {
+                Message = "Bish Bash Bosh",
+                Value = 1000
+            });
+        }
     }
 }
